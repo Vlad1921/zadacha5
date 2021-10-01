@@ -12,6 +12,8 @@ public class Main {
                 if ((i % j) == 0) isprime = false;
             if (isprime)
                 System.out.println(i + " - простое число.");
+            else
+                System.out.println(i+ "-Число не простое");
         }
     }
 }
